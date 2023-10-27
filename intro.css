@@ -1,0 +1,125 @@
+#intro{
+    background: rgb(30, 30, 30);
+    height: calc(96rem - 19rem);
+    width: 100vw;
+    max-width: 114rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: sticky;
+   
+}
+
+.bg{
+    margin: 26rem;
+    position: absolute;
+    top: 18rem;
+    right: -23rem;
+    z-index: -1;
+    object-fit: cover;
+    height: 29rem;
+    transition: 1s ease;
+}
+
+.bg:hover{
+    box-shadow: 5px 10px 20px 5px rgba(236, 233, 233, 0.5);
+    border-radius:50%;
+transition: 1s ease;
+ }
+
+
+
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    margin-top: 82rem;
+    padding: 0%;
+   margin-left: -43rem;
+    font-size: 1.75rem;
+  
+}
+
+.introText{
+    padding:  0rem;
+   margin-left: -40rem;
+    font-size: 1.65rem;
+    white-space: initial
+
+}
+
+
+
+.introName{
+    font-size: 3rem;
+    color: yellow;
+    padding: 0;
+    margin: 0;
+   
+}
+.introName:hover{
+     color: blueviolet;
+}
+
+.introPara{
+    font-size: 1.25rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+        padding: 1rem;
+    margin-left: -39rem;
+   
+    
+   
+
+}
+
+
+.btn{
+    font-size: medium;
+    background: white;
+    border: none;
+   padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+ margin-left: -44rem;
+   
+}
+.btn:hover{
+    text-transform: uppercase;
+    box-shadow: 5px 10px 20px 5px rgba(236, 233, 233, 0.5);
+    cursor: pointer;
+}
+
+
+
+.btnImg{
+    object-fit: cover;
+    margin: -3px 0.5rem;
+    height: 1rem;
+}
+
+
+/*media query*/
+
+@media screen and (max-width:840px){
+    .bg{
+        right: -10vw;
+
+    }
+    
+    .introContent{
+        font-size: 10vw;
+    }
+
+
+    .hello{
+        font-size: 4.5vw;
+    }
+}
